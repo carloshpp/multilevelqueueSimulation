@@ -50,16 +50,12 @@ public class Process {
         this.WaitTime = WaitTime;
     }
 
-    /**
-     * @return the CreatedTime
-     */
+    
     public float getCreatedTime() {
         return CreatedTime;
     }
 
-    /**
-     * @param CreatedTime the CreatedTime to set
-     */
+    
     public void setCreatedTime(int CreatedTime) {
         this.CreatedTime = CreatedTime;
     }
