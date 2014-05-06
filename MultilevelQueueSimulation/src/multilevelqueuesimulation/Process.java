@@ -59,5 +59,10 @@ public class Process {
     public void setCreatedTime(int CreatedTime) {
         this.CreatedTime = CreatedTime;
     }
+    
+    public void endProcess(float ActualTime){
+        this.WaitTime  = ActualTime - CreatedTime;
+        this.Turnaround = this.WaitTime - this.Burst;
+    }
 
 }
