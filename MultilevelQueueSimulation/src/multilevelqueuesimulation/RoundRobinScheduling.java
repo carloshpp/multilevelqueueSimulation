@@ -41,7 +41,6 @@ public class RoundRobinScheduling {
     }
     
     public void Schedule(){
-        
         int burst;
         for(Process proc: Processes){
         
